@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <fieldset>
+            <legend>Form</legend>
+        <form method="post">
+           <div> <label>First Name:</label>
+<input type="text" required name="firstName" pattern="[A-Za-z]+" ></div>
+<br/>
+<div>
+<label> Last Name:</label>
+<input type="text" name="lastname" minlength="5">
+</div>
+<br/>
+
+<div>
+<label> Mobile Number:</label>
+<input type="tel" name="mobile" minlength="11" maxlength="11" pattern="^01[0125][0-9]{8}$"  >
+</div>
+
+<br/>
+<!--datalist-->
+<!--same id of the datalist = the same name of the attribute(list) in the input tag-->
+<div>
+    <label for="course-input">Select or type a course:</label>
+  <input list="courses" id="course-input" name="selected_course" placeholder="Type to search...">
+    <datalist name="courses" id="courses"> 
+        <option > Html Course</option>
+ <option > CSS Course</option>
+  <option > JavaScript Course</option>
+   <option > PHP Course</option>
+    <option > SQL Course</option>
+    </datalist>
+</div>
+<br/>
+<div>
+    <input type="file" accept="image/png" name="png"><!--aceept only images-->
+</div>
+<br/>
+<div>
+  
+    <textarea name="comment" placeholder="enter your comment" width ="50 " height ="50" required></textarea>
+</div>
+<br/>
+<div>
+     <input type="datetime-local" name="birth" required>
+</div>
+<br/>
+<div>
+    <label>Gender:</label>
+    <input type="radio" name="male" required><label>Male</label>
+     <input type="radio" name="female" required><label>Female</label>
+</div>
+<br/>
+<div>
+    <input type="range" min="10" max="100" name="range">
+</div>
+<br/>
+<div>
+    <label>Tracks:</label><br/>
+    <input type="checkbox" name="tracks" ><label>Front-End Developer</label><br/>
+    <input type="checkbox" name="tracks" ><label>Back-End Developer</label><br/>
+    <input type="checkbox" name="tracks" ><label>Linux Adminstrator</label><br/>
+    <input type="checkbox" name="tracks" ><label> Cyper Security </label><br/>
+    <input type="checkbox" name="tracks" checked><label>AI Engineer</label>
+</div>
+<br/>
+<button type="submit">Submit</button>
+</fieldset>
+        </form>
+
+
+    </body>
+</html>
