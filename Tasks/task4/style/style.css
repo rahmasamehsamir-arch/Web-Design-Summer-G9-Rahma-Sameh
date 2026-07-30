@@ -1,0 +1,125 @@
+/* Reset style*/
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+/* Global Style*/
+
+.bg{
+     background-image: url(../images/old-war-office-london-AP.webp);
+     padding:2%;
+     margin:auto;
+     background-position: top right;
+     background-repeat: no-repeat;
+     background-size: 100% 130%;}
+
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.section
+
+.container{
+
+    width: 80%;
+   margin:auto;
+  padding-left: 30%;
+   padding-bottom: 10%;
+        padding-top: 10%;
+}
+.bg{
+     background-image: url(../images/old-war-office-london-AP.webp);
+    
+     margin:auto;
+     margin-top: 5%;
+     background-position: top right;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+.special{
+    text-transform: uppercase;
+   
+}
+h1{
+    color:orange;
+    margin-bottom: 3%;
+     font-size: 50px;
+     text-transform: uppercase;
+     
+}
+h2{
+    margin-bottom: 5%;
+     text-transform: uppercase;
+     color:white;
+    font-size: 30px;
+
+    
+}
+hr{
+    border: 1px white solid;
+    width:10%;
+ margin-bottom: 4%;
+    
+}
+    h6{
+        color:white;
+        margin-bottom: 3%;
+        padding:2%;
+        font-size:15px;
+       
+    }
+.btn{
+     padding:1% 3% 1% 3%;
+     background-color: transparent;
+     font-weight: 600;
+     color:white;
+     border:white 2px solid;
+     margin-top: 3%;
+    }
+    .padding{
+        padding-bottom: 10%;
+        padding-top: 10%;
+
+    }
+    .list{
+        text-align: right;
+      
+        color:white;
+    }
+    .bg-dark{
+width:100%;
+background-color: black;
+height:10%;
+    }
+.dis{
+    display: inline-block;
+      padding:2%;
+   
+}
+.a{
+    text-decoration: none;
+    color:white;
+}
+.align{
+    text-align: left;
+    display: inline-block;
+    vertical-align: bottom;
+  
+    
+}
+.container2{
+    height:10%;
+}

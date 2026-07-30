@@ -1,0 +1,44 @@
+*{
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+.card{
+    width:30%;
+    text-align: center;
+    display: inline-block;
+    margin:1%;
+    padding:1%;
+    
+
+}
+.section{
+    width:80%;
+    background-color: lightgray;
+    margin:auto;
+    margin-top: 20%;
+    padding:10%
+}
+.upper{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.top{
+    text-align: center;
+}
+.hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border: 1px solid rgb(229, 152, 10);
+    
+}
+.icon{
+    border:solid;
+    border-radius: 50%;
+   height: 60px;
+   width:60px;
+  padding-top: 6%;
+  color:darkorange;
+  font-size:x-large;
+}
