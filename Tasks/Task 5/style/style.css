@@ -1,0 +1,309 @@
+/* Reset style*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+
+
+/*Global Style*/
+
+.flex{
+    display:flex;
+      justify-content: space-around;
+      
+       
+       
+}
+.justify-end{
+     text-align: left;
+}
+.marg-bott{
+   padding-bottom: 4%;
+   margin-bottom: 2%;
+}
+.d-flex{
+    display:flex;
+    width:45%;
+    flex-flow: wrap;
+justify-content: center;
+align-items: center;
+column-gap: 20px;
+    row-gap: 10px;
+        align-content: center;
+  
+}
+
+.margin-top{
+    margin-top: 2%;
+}
+.margin-bottom{
+      margin-bottom: 20%;
+}
+.padding-1{
+    padding-left:7px;
+    padding-right:7px;
+   
+}
+.navy{
+    color:rgb(2, 5, 54);
+}
+.flex-direction{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-end{
+   align-self:  flex-end;
+}
+    .card-flex{
+    padding: 5%;
+        text-align: center;
+    width: 30%;
+    background-color:lightgray;
+    
+  margin: 1%;
+    }
+    
+.yellow{
+     color : rgb(231, 212, 0) ;
+}
+    
+    
+   .bignum{
+
+font-weight: 700;
+font-size: 50px;
+   
+
+   }
+
+
+  .text-black{
+    color:rgba(0, 0, 0, 0.63)
+  }
+
+
+
+
+/*Custom Style*/
+.nav-cont{
+    width:100%;
+    margin:auto;
+    
+}
+.nav-center{
+   
+    list-style: none;
+    
+}
+
+.link{
+    text-decoration: none;
+    
+}
+
+.btn{
+    margin-left:1%;
+    background-color:rgb(255, 234, 0) ;
+    border:rgb(255, 234, 0) solid 1px;
+    border-right: 3%;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:30px;
+    padding-right: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+small{
+    padding:px;
+}
+.nav-left{
+    width:15%;
+}
+.container{
+    width:85%;
+    margin: auto;
+   padding-bottom: 4%;
+
+   
+    justify-content: space-between;
+    
+}
+h1{
+    padding-top: 10%;
+    text-align: left;
+    color:rgb(2, 5, 54);
+    font-size: 55px;
+}
+
+.text-center{
+    margin-right:50%;
+}
+.img{
+   
+  margin-top: 5%;
+    background: url(https://t4.ftcdn.net/jpg/02/81/89/73/360_F_281897358_3rj9ZBSZHo5s0L1ug7uuIHadSxh9Cc75.jpg);
+    background-size: 80%;
+    height:700px;
+    background-repeat: no-repeat;
+    background-position: right ;
+    margin-left: auto;
+  
+ 
+   
+}
+.img2{
+    width:100%;
+}
+.input{
+   
+   padding-right: 4%;
+
+    border:white 8px solid;
+    padding:1%;
+    width:80%;
+   
+      padding-left:30px;
+    padding-right: 40px;
+}
+.btnn{
+
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-right: 7%;
+      padding-left:40px;
+    padding-right: 40px;
+  border:rgb(255, 234, 0) solid 1px;
+      background-color:rgb(255, 234, 0) ;
+      
+}
+.box-sha{
+     margin-top:3%;
+        width: fit-content;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+     }
+.para{
+    margin-bottom: 3%;
+    padding:2%;
+    padding-left:4%;
+    padding-top: 3%;
+    
+}
+.side{
+    margin-top: 12%;
+    text-align: center;
+   
+    
+}
+.title
+{
+    margin-bottom: 15%;
+    margin-top: 15%;
+   margin-left: 5%;
+   font-size: 45px;
+}
+.title2{
+     margin-top: 12%;
+    margin-left: 10%;
+     font-size: 40px;
+      margin-bottom: 5%;
+}
+.width{
+    width:50%;
+
+  
+}
+h4{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.showme{
+    color:white;
+    background-color:rgb(2, 5, 54) ;
+    padding-left: 15%;
+     padding-right: 15%;
+     padding-top: 4%;
+     padding-bottom: 4%;
+     border: 1px solid rgb(2, 5, 54);
+     margin-left:24%;
+     margin-top: 4%;
+}
+.wid{
+    width:50%;
+}
+.img{
+    width:100%;
+    height:500px;
+}
+.cubes{
+    flex-wrap:wrap;
+    display: flex;
+   justify-content: space-around;
+  
+   column-gap:7px ;
+   row-gap: 30px;
+}
+.card-item{
+   
+    border:2px solid white;
+   width:30%;
+      box-shadow: 0px 0px 3px 3px lightgray;
+    
+}
+.card-para{
+    padding:10%;
+}
+.container2{
+    width:100%;
+    background-color: rgb(0, 255, 217);
+    color:white
+}
+.foot-input{
+    width:30%;
+    padding-left:2%;
+     padding-right:2%;
+   
+      margin-top: 2%;
+      margin-bottom: 3%;
+}
+.footer{
+    padding-bottom: 3%;
+}
+.foot{
+ margin-bottom: 2%;
+
+}
+.list-foot{
+   list-style:  none;
+   
+}
+.marg-foot{
+    margin:7%;
+    padding:6%;
+}
+h5{
+    margin-bottom: 10%;
+}
+.hr{
+    width:80%;
+  
+    margin-left: auto;
+    margin-right: auto;
+   
+   border:white 1px solid;
+}
+.view{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    padding-left: 6%;
+    padding-right:6% ;
+    border:2px white solid;
+    
+}
