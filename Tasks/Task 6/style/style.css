@@ -13,7 +13,12 @@ padding: 0;
 
 
 /* Global Style */
-
+.pos-rel{
+    position: relative;
+}
+.marg-top{
+    margin-top: 15%;
+}
 .d-flex{
     display:flex;
 }
@@ -24,9 +29,10 @@ padding: 0;
     color: white;
 }
 .container{
-    width:1300px;
+    width:90%;
     margin-left: auto;
     margin-right: auto;
+   
 }
 
 .text-center{
@@ -35,9 +41,38 @@ padding: 0;
 .teal{
   background-color:   #285E67;
 }
+.bg-gray{
+    background-color: lightgray;
+}
+.green-border{
+    position: relative;
+    width:50px;
+    height:50px;
+    border-radius: 20%;
+    background-color: #285E67;
+    margin-bottom:3%;
+}
+.marg-bott{
+    margin-bottom: 8%;
+}
+.leaf{
+    position: absolute;
+   
+    color:aliceblue;
+    
+}
+.d-flex{
+    display: flex;
 
+}
 
+.padding{
+    padding:8%;
 
+}
+.text-center{
+    text-align: center;
+}
 /* Custom Style */
 h1{
     font-size: 55px;
@@ -46,15 +81,20 @@ h1{
    
    
 }
+
+
 .nav{
     justify-content: space-between;
+}
+.section2{
+    margin-bottom:4%;
 }
 .footer{
     justify-content: space-around;
     padding:3%
 }
 .logo{
-    margin-top:32px;
+    margin-top:3%;
   
 
 }
@@ -62,7 +102,7 @@ h1{
     justify-content: space-evenly;
     list-style: none;
     width:25%;
-    margin-top: 32px;
+    margin-top: 3%;
     
 }
 .img-sec1{
@@ -73,13 +113,14 @@ h1{
     margin:5%;
 }
 .join{
-    border: #285E67 solid 1px;
+    border: #e9ebeb solid 1px;
     margin-top: 3%;
 color:white;
-width:251px;
-height:56px;
+width:20%;
+height:90%;
 border-radius: 67px;
 font-size: 18px;
+padding:1%;
 }
 .h6{
     margin-top: 1%;
@@ -87,6 +128,11 @@ font-size: 18px;
 .left{
     margin-left: 2%;
    
+}
+.card1{
+    width:30%;
+    
+    
 }
 .icon-foot{
   margin-top: 2%;
@@ -98,6 +144,57 @@ font-size: 18px;
 
 }
 .foot-h{
-    height:245px;
+    height:50%;
     margin-top:5%
+}
+.marg-left{
+    margin-left:3%;
+}
+.img-abs{
+    position: absolute;
+    bottom:0%;
+    left:70%;
+}
+.big-card{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.shareet{
+    font-size: 16px;
+    margin-top:7%;
+    text-align: center;
+    margin-left: 7%;
+}
+.para{
+    text-align: center;
+    margin-top: 1%;
+    margin-left:7%;
+}
+.bg{
+    background-image: url(../images/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
+    width:100%;
+    padding:20%;
+    /* background-repeat: no-repeat; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-tran{
+    background-color: transparent;
+}
+.pink-card{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FCE2D7;
+    position: absolute;
+    padding:8%;
+    left:16%;
+    bottom:-10%;
+    
 }
