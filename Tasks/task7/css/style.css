@@ -96,8 +96,10 @@ transform: rotate(-10deg);
          transform: translateY(-304px);
     z-index: 1;
 background-color: lightblue;
-  
+
 }
+  
+
 .text-c{
     text-align: center;
     margin-top: 90%;
@@ -115,7 +117,10 @@ background-color: lightblue;
 }
 .card3:hover img{
      transform: translate(-50px, -50px);
+ 
+  
 }
+
 .c-black{
 color:dimgray;
 }

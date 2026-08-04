@@ -1,0 +1,28 @@
+*{
+    direction: rtl;
+    overflow: hidden;
+}
+.card{
+height:100%;
+   position:relative;
+    padding:15%;
+    width:100%;
+   
+}
+
+
+.anim{
+    animation :3s pinkcar ease infinite;
+  width:10%;
+  position:absolute;
+  transform:translateX(-200px);
+
+}
+@keyframes pinkcar {
+   from{
+    left:100%;
+   }
+    to{
+        left:0%;
+    }
+}
