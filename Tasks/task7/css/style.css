@@ -80,10 +80,10 @@ transition-duration: 0.5s;
     /* transform:skewX(10deg); */
 transform: scale(100);
 transform: rotate(-10deg);
-
-
-
 }
+/* card3 */
+
+
 .card3{
     width:40%;
     
@@ -96,7 +96,7 @@ transform: rotate(-10deg);
          transform: translateY(-304px);
     z-index: 1;
 background-color: lightblue;
-
+ transition-duration: 0.5s;
 }
   
 
@@ -115,9 +115,13 @@ background-color: lightblue;
        z-index: 2;
     transition-duration: 0.5s;
 }
-.card3:hover img{
-     transform: translate(-50px, -50px);
- 
+.card3{
+    &:hover img{
+         transform: translate(-50px, -50px);
+    }
+    &:hover .white-c1{
+     transform: translate(50px, -274px);}
+
   
 }
 
