@@ -17,3 +17,9 @@ else
 
 
 }
+
+// >90 ==> A
+// 90: 80 ==>B
+// less than 80 to 70 ==>c
+// less than 70 to 50==>D
+// < 50==>F
